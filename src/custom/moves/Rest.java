@@ -4,6 +4,10 @@ import ru.ifmo.se.pokemon.*;
 
 public final class Rest extends StatusMove {
 
+    {
+        this.type = Type.PSYCHIC;
+    }
+
     @Override
     protected void applySelfEffects(Pokemon pokemon) {
 
@@ -12,7 +16,7 @@ public final class Rest extends StatusMove {
                                       .attack(0.0)
                                       .turns(2);
         pokemon.setMod(Stat.HP, (int) (pokemon.getHP() - pokemon.getStat(Stat.HP)));
-        pokemon.addEffect(effect);
+        pokemon.setCondition(effect);
     }
 
 }

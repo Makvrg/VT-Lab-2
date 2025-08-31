@@ -12,7 +12,7 @@ public final class Snarl extends SpecialMove {
     protected void applyOppEffects(Pokemon pokemon) {
         Effect effect = (new Effect()).turns(0)
                                       .stat(Stat.SPECIAL_ATTACK, -1);
-        pokemon.setCondition(effect);
+        pokemon.addEffect(effect);
     }
 
 }

@@ -13,7 +13,7 @@ public final class TailWhip extends StatusMove {
         Effect effect = (new Effect()).chance(1.0)
                                       .turns(0)
                                       .stat(Stat.DEFENSE, -1);
-        pokemon.setCondition(effect);
+        pokemon.addEffect(effect);
     }
 
 }

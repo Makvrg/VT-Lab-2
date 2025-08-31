@@ -1,11 +1,12 @@
 package custom.moves;
 
-import ru.ifmo.se.pokemon.Effect;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Stat;
-import ru.ifmo.se.pokemon.StatusMove;
+import ru.ifmo.se.pokemon.*;
 
 public final class Confide extends StatusMove {
+
+    {
+        this.type = Type.NORMAL;
+    }
 
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
