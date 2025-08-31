@@ -1,6 +1,6 @@
-package custom.pokemons;
+package pokemons;
 
-import custom.moves.BugBuzz;
+import moves.BugBuzz;
 import ru.ifmo.se.pokemon.Type;
 
 public final class Venomoth extends Venonat {

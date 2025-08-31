@@ -1,9 +1,9 @@
-package custom.pokemons;
+package pokemons;
 
-import custom.moves.Confide;
-import custom.moves.Discharge;
-import custom.moves.ShadowBall;
-import custom.moves.Snarl;
+import moves.Confide;
+import moves.Discharge;
+import moves.ShadowBall;
+import moves.Snarl;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

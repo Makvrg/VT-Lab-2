@@ -1,6 +1,6 @@
-package custom.pokemons;
+package pokemons;
 
-import custom.moves.Slam;
+import moves.Slam;
 import ru.ifmo.se.pokemon.Type;
 
 public class Pikachu extends Pichu {

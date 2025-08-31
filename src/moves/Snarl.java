@@ -1,11 +1,11 @@
-package custom.moves;
+package moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public final class Confide extends StatusMove {
+public final class Snarl extends SpecialMove {
 
-    {
-        this.type = Type.NORMAL;
+    public Snarl(Type type, double power, double accuracy) {
+        super(type, power, accuracy);
     }
 
     @Override

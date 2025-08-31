@@ -1,8 +1,8 @@
-package custom.pokemons;
+package pokemons;
 
-import custom.moves.Supersonic;
-import custom.moves.Venoshock;
-import custom.moves.ZenHeadbutt;
+import moves.Supersonic;
+import moves.Venoshock;
+import moves.ZenHeadbutt;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

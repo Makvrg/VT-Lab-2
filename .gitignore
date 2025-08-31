@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 /.idea/
+/VT_Lab_2.iml
 
 ### Eclipse ###
 .apt_generated

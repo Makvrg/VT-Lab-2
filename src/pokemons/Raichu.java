@@ -1,6 +1,6 @@
-package custom.pokemons;
+package pokemons;
 
-import custom.moves.TailWhip;
+import moves.TailWhip;
 import ru.ifmo.se.pokemon.Type;
 
 public final class Raichu extends Pikachu {

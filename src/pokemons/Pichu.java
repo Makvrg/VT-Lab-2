@@ -1,7 +1,7 @@
-package custom.pokemons;
+package pokemons;
 
-import custom.moves.Rest;
-import custom.moves.WildCharge;
+import moves.Rest;
+import moves.WildCharge;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
