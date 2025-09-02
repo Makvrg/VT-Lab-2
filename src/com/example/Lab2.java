@@ -1,10 +1,12 @@
-import pokemons.*;
+package com.example;
+
+import com.example.pokemons.*;
 import ru.ifmo.se.pokemon.Battle;
 import ru.ifmo.se.pokemon.Pokemon;
 
 public class Lab2 {
     public static void main(String[] args) {
-        Battle b = new Battle();
+        Battle battle = new Battle();
 
         Pokemon p11 = new Raikou("Ай тигр", 1);
         Pokemon p12 = new Venonat("Крыса", 1);
@@ -14,15 +16,15 @@ public class Lab2 {
         Pokemon p22 = new Pichu("МиниЧу", 1);
         Pokemon p23 = new Raichu("Сбербанк", 1);
 
-        b.addAlly(p11);
-        b.addAlly(p12);
-        b.addAlly(p13);
+        battle.addAlly(p11);
+        battle.addAlly(p12);
+        battle.addAlly(p13);
 
-        b.addFoe(p21);
-        b.addFoe(p22);
-        b.addFoe(p23);
+        battle.addFoe(p21);
+        battle.addFoe(p22);
+        battle.addFoe(p23);
 
-        b.go();
+        battle.go();
     }
 
 }

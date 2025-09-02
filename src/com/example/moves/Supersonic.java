@@ -1,4 +1,4 @@
-package moves;
+package com.example.moves;
 
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;
@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public final class Supersonic extends StatusMove {
 
-    {
+    public Supersonic() {
         this.type = Type.NORMAL;
         this.accuracy = 0.55;
     }
@@ -15,6 +15,11 @@ public final class Supersonic extends StatusMove {
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
         Effect.confuse(pokemon);
+    }
+
+    @Override
+    protected String describe() {
+        return "использует Supersonic";
     }
 
 }
