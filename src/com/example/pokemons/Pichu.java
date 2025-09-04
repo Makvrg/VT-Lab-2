@@ -10,11 +10,11 @@ public class Pichu extends Pokemon {
     public Pichu(String name, int level) {
         super(name, level);
 
-        this.setStats(20.0, 40.0, 15.0, 35.0, 35.0, 60.0);
-        this.setType(Type.ELECTRIC);
+        super.setStats(20.0, 40.0, 15.0, 35.0, 35.0, 60.0);
+        super.setType(Type.ELECTRIC);
 
-        this.addMove(new WildCharge());
-        this.addMove(new Rest());
+        super.addMove(new WildCharge());
+        super.addMove(new Rest());
     }
 
 }

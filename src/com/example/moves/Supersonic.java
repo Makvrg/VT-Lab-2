@@ -8,8 +8,8 @@ import ru.ifmo.se.pokemon.Type;
 public final class Supersonic extends StatusMove {
 
     public Supersonic() {
-        this.type = Type.NORMAL;
-        this.accuracy = 0.55;
+        super.type = Type.NORMAL;
+        super.accuracy = 0.55;
     }
 
     @Override

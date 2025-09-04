@@ -20,4 +20,5 @@ public final class BugBuzz extends SpecialMove {
     protected String describe() {
         return "использует Bug Buzz";
     }
+
 }

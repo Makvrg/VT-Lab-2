@@ -12,14 +12,14 @@ public final class Raikou extends Pokemon {
     public Raikou(String name, int level) {
         super(name, level);
 
-        this.setStats(90.0, 85.0, 75.0, 115.0, 100.0, 115.0);
+        super.setStats(90.0, 85.0, 75.0, 115.0, 100.0, 115.0);
 
-        this.setType(Type.ELECTRIC);
+        super.setType(Type.ELECTRIC);
 
-        this.addMove(new Snarl());
-        this.addMove(new ShadowBall());
-        this.addMove(new Discharge());
-        this.addMove(new Confide());
+        super.addMove(new Snarl());
+        super.addMove(new ShadowBall());
+        super.addMove(new Discharge());
+        super.addMove(new Confide());
     }
 
 }
